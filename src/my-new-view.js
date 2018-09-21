@@ -2,6 +2,7 @@
 import { PolymerElement, html } from '@polymer/polymer/polymer-element.js';
 /* Load shared styles. All view elements use these styles */
 import '@polymer/paper-checkbox/paper-checkbox.js';
+import '@polymer/paper-input/paper-input.js';
 import './shared-styles.js';
 
 
@@ -23,6 +24,9 @@ class MyNewView extends PolymerElement {
         <h1>New View</h1>
         <paper-checkbox>Ready to deploy!</paper-checkbox>
         <p>New view!</p>
+        <p>
+        <paper-input always-float-label label="Floating label"></paper-input>
+        </p>
       </div>
     `;
   }
