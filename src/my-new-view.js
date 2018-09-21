@@ -21,7 +21,7 @@ class MyNewView extends PolymerElement {
       <div class="card">
         <div class="circle">1</div>
         <h1>New View</h1>
-        <!--<paper-checkbox>Ready to deploy!</paper-checkbox>-->
+        <paper-checkbox>Ready to deploy!</paper-checkbox>
         <p>New view!</p>
       </div>
     `;
